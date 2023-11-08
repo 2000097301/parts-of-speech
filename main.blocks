@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="X8p~ezd^R,qau/;KoVb)">Player</variable><variable type="KIND_SpriteKind" id="]4U%V3SDa5asvd{481e/">Projectile</variable><variable type="KIND_SpriteKind" id="!+kpJKpd[I%WPr]mNRBT">Food</variable><variable type="KIND_SpriteKind" id="Nm+Q`6,O_+yD4Wh(}iJ?">Enemy</variable><variable id="0Kv7Btx2z!zPwvO`-QB9">mySprite</variable><variable id="%TC?V4X3(B0wWxz6CFet">PJ</variable><variable id="=BLovJztHaQDFSD44t3Q">LJ</variable><variable id="0bwj)]]5o10[L{h[m7CA">sentence</variable><variable id="^}+@U8Pr:82tm,sxn,N}">nouns</variable></variables><block type="pxt-on-start" id=";s!q6w;rAZV|7PR_/3~V" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="h-Mc:Otdm/V-|0j^lqbO"><value name="color"><shadow type="colorindexpicker" id="D/1vK{UHOmU0rtT,vqZz"><field name="index">2</field></shadow></value><next><block type="variables_set" id="9b*99jji**`xn,G{dg=@"><field name="VAR" id="%TC?V4X3(B0wWxz6CFet">PJ</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=".$@6-[C.l}_%;#h2vc.x"><value name="img"><shadow type="screen_image_picker" id="-VU;_4k={)B`LGU/[e^%"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-VU;_4k={)B`LGU/[e^%"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="DvRnjaBu~l=SP|-AnM*o"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="bc}~nr%4O0x3KBXGcsl}"><field name="VAR" id="=BLovJztHaQDFSD44t3Q">LJ</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="@woAGs7tHZC2T6fNiLO+"><value name="img"><shadow type="screen_image_picker" id="v@P9]:?26}qiQF-aP^s`"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 5 b . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 b . 
+b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"v@P9]:?26}qiQF-aP^s`"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="WZgJUFMY@[w2|_iA~Wb~"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="Af;|y7xgq{%CQEW!0DRs"><value name="sprite"><block type="variables_get" id="1Xa(/e,4J?=0fDDbNXi?"><field name="VAR" id="%TC?V4X3(B0wWxz6CFet">PJ</field></block></value><value name="x"><shadow type="positionPicker" id="`MC{C,(GV(VF~+${Fjwe"><field name="index">30</field></shadow></value><value name="y"><shadow type="positionPicker" id="Yk_;_!#8sxvj4.ro8F:G"><field name="index">26</field></shadow></value><next><block type="variables_set" id="DMK@^/xkD=O0.pIF+Sm!"><field name="VAR" id="0bwj)]]5o10[L{h[m7CA">sentence</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="text" id="O,!NLpl*Xnjp*;Uhc0ko"><field name="TEXT">The castle is cold in the winter</field></block></value><next><block type="variables_set" id="$NBi^|E@cDgXC~5b1^Ro"><field name="VAR" id="^}+@U8Pr:82tm,sxn,N}">nouns</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="text_join" id="-U/g2AUp%XassY|F(2*t"><mutation items="2"></mutation><value name="ADD0"><shadow type="text"><field name="TEXT">Hello</field></shadow><block type="string_substr" id="d:{S[$N(RrpyQfQ1J+FY"><value name="this"><shadow type="text"><field name="TEXT">this</field></shadow><block type="variables_get" id="};JU+3vd%:pWYRs0?czT"><field name="VAR" id="0bwj)]]5o10[L{h[m7CA">sentence</field></block></value><value name="start"><shadow type="math_number" id="lyy.v:8-|:]?L6M|4)z?"><field name="NUM">0</field></shadow></value><value name="length"><shadow type="math_number" id="zDiAcZ^x5c2#uwYPvy-l"><field name="NUM">6</field></shadow></value></block></value><value name="ADD1"><shadow type="text"><field name="TEXT">World</field></shadow><block type="string_substr" id="Ru52rS+l*{LcD0l_uF=J"><value name="this"><shadow type="text"><field name="TEXT">this</field></shadow><block type="variables_get" id="*YRs(PT-ypxb{#o)7]/g"><field name="VAR" id="0bwj)]]5o10[L{h[m7CA">sentence</field></block></value><value name="start"><shadow type="math_number" id="JrlFeM9wp)j_k?d?ziBP"><field name="NUM">0</field></shadow></value><value name="length"><shadow type="math_number" id="pTOgGu/Yvoq$,/uU^,+S"><field name="NUM">6</field></shadow></value></block></value></block></value><next><block type="spritesaytext" id="{e;xdvSvC5u+Br}hq-{F"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="T[#G!_Gp!%]z+6|+zAxn"><field name="VAR" id="%TC?V4X3(B0wWxz6CFet">PJ</field></block></value><value name="text"><shadow type="text"><field name="TEXT">:)</field></shadow><block type="variables_get" id="8mIqnLi`Ru_tc^!Rfc}]"><field name="VAR" id="^}+@U8Pr:82tm,sxn,N}">nouns</field></block></value><value name="timeOnScreen"><shadow type="timePicker" id="6mO1ec:pl1=};D;|jL=@"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="/bME+eIy)w^QK4S,)YQH"><field name="BOOL">FALSE</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
